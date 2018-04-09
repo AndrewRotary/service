@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "md.master",
+      "nativeLanguage": "ro"
+    },
+    "jhipsterVersion": "5.0.0-beta.0",
+    "baseName": "vreuMester",
+    "reactive": true,
+    "packageName": "md.master",
+    "packageFolder": "md/master",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "9e80ccfed2726aad14eabc09a9d3582bc9f173aa",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-primeng",
+        "version": "2.0.42"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ro",
+    "languages": [
+      "ro",
+      "ru"
+    ]
+  }
+}
